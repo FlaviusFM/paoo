@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/ImageProcessor.dir/src/ImageBuffer.cpp.o CMakeFiles/ImageProcessor.dir/src/main.cpp.o -o ImageProcessor 
