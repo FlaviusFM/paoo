@@ -6,7 +6,7 @@
 
 class BankAccount {
 private:
-    const std::string iban;   //    Membru const: TREBUIE initializat în lista de initializare
+    const std::string iban;   //    Membru const: TREBUIE initializat in lista de initializare
     double initialDeposit;    //    Declarat INAINTE de balance
     double balance;           //    Depinde de initialDeposit
 

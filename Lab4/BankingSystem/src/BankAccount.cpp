@@ -5,7 +5,7 @@
 BankAccount::BankAccount(const std::string& accountIban, double deposit)
     : iban(accountIban), 
       initialDeposit(deposit), 
-      balance(initialDeposit) //    initialDeposit a fost declarat si initializat înainte
+      balance(initialDeposit) //    initialDeposit a fost declarat si initializat inainte
 {
     //  Singleton
     BankRegistry::getInstance().logRegistration(iban);
